@@ -32,14 +32,14 @@ function App() {
             <button className='button' onClick={scrollToTop}>Voltar ao Início</button>
 
             <h3>CONFIGURANDO COMANDOS "UPDATE" e "SELECT * FROM" NO SQL SERVER</h3>
-            <p>&bull; Inserir comandos com o número do usuário, pois é para este destinatário que o email de aviso vai ser enviado (conforme exemplo abaixo):</p>
+            <p>&bull; Inserir comandos com o número do usuário, pois é a partir deste que o e-mail de aviso vai ser enviado (conforme exemplo abaixo):</p>
             <img className='comando' src={update} alt="Login" /> <br></br>
             <img className='comando2' src={select} alt="Login" />
 
            
 
-            <h3>APÓS INSERIR COMANDOS, ENTRE NO SISTEMA ERP_CLIENT E FAÇA LOGIN PARA CONFIGURAR O EMAIL AUTOMÁTICO</h3>
-            <p>&bull; Entre no sistema ERP Client, faça o login com seu usuário CNE + Alt16 para ser direcionado ao ambiente do sistema! (conforme imagem a seguir):</p>
+            <h3>APÓS INSERIR OS COMANDOS, ENTRE NO SISTEMA ERP_CLIENT E FAÇA LOGIN PARA CONFIGURARMOS O EMAIL AUTOMÁTICO</h3>
+            <p>&bull; Entre no sistema ERP Client e faça o login com usuário e senha, para ser direcionado ao ambiente do sistema! (conforme imagem a seguir):</p>
             <img className='img-proced-1' src={login} alt="Login" />
 
             <h3>PROCESSO DE CONFIGURAÇÃO</h3>
